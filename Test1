@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <title></title>
-  <script> src="https://d3js.org/d3.v4.min.js"></script>
+  <title>Millennial Voting Intentions Leading Up To The 2016 Election</title>
+  <script type==“text/javascript” src=“d3.js”></script>
 </head>
 
 <body>
@@ -14,8 +14,17 @@
   Click around to see how Millennials intended to vote leading up to the election!</p>
 
   <script>
+
+	var canvas = d3.select(“body”)
+			.append(“avg”)
+			.attr(“width”, 700)
+			.attr(“height”, 650);
   
- 
+  	svg.append("text")
+   	 .attr("x", w / 2)
+   	 .attr("y",  yScale(d3.max(input, function(d) { return d.CustomerCount; })) - 20)
+    	.style("text-anchor", "middle")
+    	.text("Millennial Voting Intentions Leading Up To The 2016 Election");
   
   </script>
   
