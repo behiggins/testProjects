@@ -1,1 +1,24 @@
-# testing 
+<!doctype html>
+<html>
+
+<head>
+  <title></title>
+  <script> src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+
+  <p>This presidential election was one of the most controversial and devisive in recent history. The youngest voters, or the Millennial Generation, tended to stick to Hillary Clinton,
+  unsurprisingly leaning toward the Democratic candidate. One of the more fascinating revelations, though, was the 18-29-year-olds' fondness of third party candidates.
+  This trend, though strangely popular in the summer into September, seemed to give way to major party candidates by the time Election Day actually came around on November 8.
+  Click around to see how Millennials intended to vote leading up to the election!</p>
+
+  <script>
+  
+ 
+  
+  </script>
+  
+</body>
+
+</html>
