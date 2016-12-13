@@ -3,7 +3,7 @@
 
 <head>
   <title>Millennial Voting Intentions Leading Up To The 2016 Election</title>
-  <script type==“text/javascript” src=“d3.js”></script>
+  <script type=“text/javascript” src=“d3.js”></script>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
   
   	svg.append("text")
    	 .attr("x", w / 2)
-   	 .attr("y",  yScale(d3.max(input, function(d) { return d.CustomerCount; })) - 20)
+   	 .attr("y", yScale(d3.max(input, function(d) { return d.CustomerCount; })) - 20)
     	.style("text-anchor", "middle")
     	.text("Millennial Voting Intentions Leading Up To The 2016 Election");
   
